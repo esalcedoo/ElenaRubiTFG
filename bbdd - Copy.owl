@@ -1,0 +1,2271 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY property "http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:property="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#">
+    <owl:Ontology rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology">
+        <owl:versionIRI rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#BabyChange -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#BabyChange">
+        <rdfs:label xml:lang="en">Baby Change</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Both -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Both">
+        <rdfs:label xml:lang="en">Both</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Both_Side -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Both_Side">
+        <rdfs:label xml:lang="en">Both Side</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#CardTopUp -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#CardTopUp">
+        <rdfs:label xml:lang="en">Card Top Up</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Cash -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Cash">
+        <rdfs:label xml:lang="en">Cash</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Cobbles -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Cobbles">
+        <rdfs:label xml:lang="en">Cobbles</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Collection -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Collection">
+        <rdfs:label xml:lang="en">Collection</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Concession -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Concession">
+        <rdfs:label xml:lang="en">Concession</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#ContactlessTravelCard -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#ContactlessTravelCard">
+        <rdfs:label xml:lang="en">Contactless Travel Card</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#CreditCard -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#CreditCard">
+        <rdfs:label xml:lang="en">Credit Card</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Current -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Current">
+        <rdfs:label xml:lang="en">Current</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#DebitCard -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#DebitCard">
+        <rdfs:label xml:lang="en">Debit Card</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Down -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Down">
+        <rdfs:label xml:lang="en">Down</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#FemaleOnly -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#FemaleOnly">
+        <rdfs:label xml:lang="en">Female Only</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Group -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Group">
+        <rdfs:label xml:lang="en">Group</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Kilos -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Kilos">
+        <rdfs:label xml:lang="en">Kilos</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Level -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Level">
+        <rdfs:label xml:lang="en">Level</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#LineCode -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#LineCode">
+        <rdfs:label xml:lang="en">Line Code</rdfs:label>
+        <owl:equivalentClass rdf:resource="&xsd;integer"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#LooseSurface -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#LooseSurface">
+        <rdfs:label xml:lang="en">Loose Surface</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Metres -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Metres">
+        <rdfs:comment xml:lang="en">Metres</rdfs:comment>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#MobilePhone -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#MobilePhone">
+        <rdfs:label xml:lang="en">Mobile Phone</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#None -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#None">
+        <rdfs:label xml:lang="en">None</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#One_Side -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#One_Side">
+        <rdfs:label xml:lang="en">One Side</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Other -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Other">
+        <rdfs:label xml:lang="en">Other</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Promotion -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Promotion">
+        <rdfs:label xml:lang="en">Promotion</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Purchase -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Purchase">
+        <rdfs:label xml:lang="en">Purchase</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Season -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Season">
+        <rdfs:label xml:lang="en">Season</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#SecondClass -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#SecondClass">
+        <rdfs:label xml:lang="en">Second Class</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Shower -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Shower">
+        <rdfs:label xml:lang="en">Shower</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Standard -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Standard">
+        <rdfs:label xml:lang="en">Standard</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Toilet -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Toilet">
+        <rdfs:label xml:lang="en">Toilet</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Token -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Token">
+        <rdfs:label xml:lang="en">Token</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#TravelCard -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#TravelCard">
+        <rdfs:label xml:lang="en">Travel Card</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Up -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Up">
+        <rdfs:label xml:lang="en">Up</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#WheelchairAccessToilet -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#WheelchairAccessToilet">
+        <rdfs:label xml:lang="en">Wheelchair Access Toilet</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#WheelchairBabyChange -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#WheelchairBabyChange">
+        <rdfs:label xml:lang="en">Wheelchair Baby Change</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#audioForHearingImpaired -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#audioForHearingImpaired">
+        <rdfs:label xml:lang="en">Audio For Earing Impaired</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#audioInformation -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#audioInformation">
+        <rdfs:label xml:lang="en">Audio Information</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#displaysForVisuallyImpaired -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#displaysForVisuallyImpaired">
+        <rdfs:label xml:lang="en">Displays For Visually Impaired</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#fareInformation -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#fareInformation">
+        <rdfs:label xml:lang="en">Fare Information</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#largePrintTimetables -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#largePrintTimetables">
+        <rdfs:label xml:lang="en">Large Print Timetables</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#lineNetworkPlan -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#lineNetworkPlan">
+        <rdfs:label xml:lang="en">Line Network Plan</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#lineTimetable -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#lineTimetable">
+        <rdfs:label xml:lang="en">Line Timetable</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#maleOnly -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#maleOnly">
+        <rdfs:label xml:lang="en">Male Only</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#stopTimetable -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#stopTimetable">
+        <rdfs:label xml:lang="en">Stop Timetable</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#tactileGuidingStrips -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#tactileGuidingStrips">
+        <rdfs:label xml:lang="en">Tactile Guiding Strips</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#tactilePlatformEdges -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#tactilePlatformEdges">
+        <rdfs:label xml:lang="en">Tactile Platform Edges</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#timeTablePoster -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#timeTablePoster">
+        <rdfs:label xml:lang="en">Timetable Poster</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#visualDisplays -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#visualDisplays">
+        <rdfs:label xml:lang="en">Visual Displays</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#RoughSurface -->
+
+    <rdfs:Datatype rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#RoughSurface">
+        <rdfs:label>Rough Surface</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_FreeEntry -->
+
+    <owl:ObjectProperty rdf:about="&property;has_FreeEntry">
+        <rdfs:label xml:lang="en">has Free Entry</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#SanitaryFacilityEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_Gradient -->
+
+    <owl:ObjectProperty rdf:about="&property;has_Gradient">
+        <rdfs:label xml:lang="en">has Gradient</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#RampEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_Height -->
+
+    <owl:ObjectProperty rdf:about="&property;has_Height">
+        <rdfs:label xml:lang="en">has Height</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#LuggageLockerEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#OtherSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#StopPlaceSign"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_HeightOfSosPanel -->
+
+    <owl:ObjectProperty rdf:about="&property;has_HeightOfSosPanel">
+        <rdfs:label xml:lang="en">has Height Of SOS Panel</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#PassengerSafetyEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_InfoFacility -->
+
+    <owl:ObjectProperty rdf:about="&property;has_InfoFacility">
+        <rdfs:label xml:lang="en">has Information Facility</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#PassengerInfoEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_SpiralStair -->
+
+    <owl:ObjectProperty rdf:about="&property;has_SpiralStair">
+        <rdfs:label xml:lang="en">has Spiral Stair</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#StaircaseEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_acousticAnnouncements -->
+
+    <owl:ObjectProperty rdf:about="&property;has_acousticAnnouncements">
+        <rdfs:label xml:lang="en">has Acoustic Announcements</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#LiftEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_acousticCrossingAid -->
+
+    <owl:ObjectProperty rdf:about="&property;has_acousticCrossingAid">
+        <rdfs:label xml:lang="en">has Acoustic Crossing Aid</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#CrossingEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_acousticDeviceSensors -->
+
+    <owl:ObjectProperty rdf:about="&property;has_acousticDeviceSensors">
+        <rdfs:label xml:lang="en">has Acoustic Device Sensors</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#CrossingEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_acousticSensor -->
+
+    <owl:ObjectProperty rdf:about="&property;has_acousticSensor">
+        <rdfs:label xml:lang="en">has Acoustic Sensor</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#EntranceEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_asBraille -->
+
+    <owl:ObjectProperty rdf:about="&property;has_asBraille">
+        <rdfs:label xml:lang="en">has As Braille</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#OtherSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#StopPlaceSign"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_attendant -->
+
+    <owl:ObjectProperty rdf:about="&property;has_attendant">
+        <rdfs:label xml:lang="en">has Attendant</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#LiftEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_automatic -->
+
+    <owl:ObjectProperty rdf:about="&property;has_automatic">
+        <rdfs:label xml:lang="en">has Automatic</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#LiftEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_automaticDoor -->
+
+    <owl:ObjectProperty rdf:about="&property;has_automaticDoor">
+        <rdfs:label xml:lang="en">has Automatic Door</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#EntranceEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_barrier -->
+
+    <owl:ObjectProperty rdf:about="&property;has_barrier">
+        <rdfs:label xml:lang="en">has Barrier</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#EntranceEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_brandGraphic -->
+
+    <owl:ObjectProperty rdf:about="&property;has_brandGraphic">
+        <rdfs:label xml:lang="en">has Brand Graphic</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#OtherSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#StopPlaceSign"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_ccTV -->
+
+    <owl:ObjectProperty rdf:about="&property;has_ccTV">
+        <rdfs:label xml:lang="en">has CcTV</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#PassengerSafetyEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_charge -->
+
+    <owl:ObjectProperty rdf:about="&property;has_charge">
+        <rdfs:label xml:lang="en">has Charge</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#SanitaryFacilityEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#TrolleyStandEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_content -->
+
+    <owl:ObjectProperty rdf:about="&property;has_content">
+        <rdfs:label xml:lang="en">has Content</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#OtherSign"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_depth -->
+
+    <owl:ObjectProperty rdf:about="&property;has_depth">
+        <rdfs:label xml:lang="en">has Depth</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#LuggageLockerEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#LiftEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#Escalator_Equipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#StaircaseEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#TravelatorEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_directionName -->
+
+    <owl:ObjectProperty rdf:about="&property;has_directionName">
+        <rdfs:label xml:lang="en">has Direction Name</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_directionsOfUse -->
+
+    <owl:ObjectProperty rdf:about="&property;has_directionsOfUse">
+        <rdfs:label xml:lang="en">has Directions Of Use</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#CrossingEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#EntranceEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#LiftEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#QueueingEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#RampEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#Escalator_Equipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#StaircaseEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#TravelatorEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_door -->
+
+    <owl:ObjectProperty rdf:about="&property;has_door">
+        <rdfs:label xml:lang="en">has Door</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#EntranceEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_energySaving -->
+
+    <owl:ObjectProperty rdf:about="&property;has_energySaving">
+        <rdfs:label xml:lang="en">has Energy Saving</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#Escalator_Equipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#TravelatorEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_entranceRequiresTicket -->
+
+    <owl:ObjectProperty rdf:about="&property;has_entranceRequiresTicket">
+        <rdfs:label xml:lang="en">has Entrance Requires Ticket</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#EntranceEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_freeToUse -->
+
+    <owl:ObjectProperty rdf:about="&property;has_freeToUse">
+        <rdfs:label xml:lang="en">has Free To Use</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#TrolleyStandEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_gender -->
+
+    <owl:ObjectProperty rdf:about="&property;has_gender">
+        <rdfs:label xml:lang="en">has Gender</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#SanitaryFacilityEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_handrailHeight -->
+
+    <owl:ObjectProperty rdf:about="&property;has_handrailHeight">
+        <rdfs:label xml:lang="en">has Handrail Height</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#RampEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#StaircaseEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_handrailType -->
+
+    <owl:ObjectProperty rdf:about="&property;has_handrailType">
+        <rdfs:label xml:lang="en">has Handrail Type</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#RampEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#StaircaseEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_heightFromFloor -->
+
+    <owl:ObjectProperty rdf:about="&property;has_heightFromFloor">
+        <rdfs:label xml:lang="en">has Height From Floor</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#OtherSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#StopPlaceSign"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_length -->
+
+    <owl:ObjectProperty rdf:about="&property;has_length">
+        <rdfs:label xml:lang="en">has Length</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#WaitingEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#RampEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_lighting -->
+
+    <owl:ObjectProperty rdf:about="&property;has_lighting">
+        <rdfs:label xml:lang="en">has Lighting</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#PassengerSafetyEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_lineCode -->
+
+    <owl:ObjectProperty rdf:about="&property;has_lineCode">
+        <rdfs:label xml:lang="en">has Line Code</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_lineMap -->
+
+    <owl:ObjectProperty rdf:about="&property;has_lineMap">
+        <rdfs:label xml:lang="en">has Line Map</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_lineMode -->
+
+    <owl:ObjectProperty rdf:about="&property;has_lineMode">
+        <rdfs:label xml:lang="en">has Line Mode</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_lineName -->
+
+    <owl:ObjectProperty rdf:about="&property;has_lineName">
+        <rdfs:label xml:lang="en">has Line Name</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_lowCounterAccess -->
+
+    <owl:ObjectProperty rdf:about="&property;has_lowCounterAccess">
+        <rdfs:label xml:lang="en">has Low Counter Access</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#TicketingEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_machineReadable -->
+
+    <owl:ObjectProperty rdf:about="&property;has_machineReadable">
+        <rdfs:label xml:lang="en">has Machine Readable</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#OtherSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#StopPlaceSign"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_maximumLoad -->
+
+    <owl:ObjectProperty rdf:about="&property;has_maximumLoad">
+        <rdfs:label xml:lang="en">has Maximum Load</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#LiftEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_mirrorOnOppositeSide -->
+
+    <owl:ObjectProperty rdf:about="&property;has_mirrorOnOppositeSide">
+        <rdfs:label xml:lang="en">has Mirror On Opposite Side</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#LiftEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_mobilePhoneCoverage -->
+
+    <owl:ObjectProperty rdf:about="&property;has_mobilePhoneCoverage">
+        <rdfs:label xml:lang="en">has Mobile Phone Coverage</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#PassengerSafetyEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_numberOfGates -->
+
+    <owl:ObjectProperty rdf:about="&property;has_numberOfGates">
+        <rdfs:label xml:lang="en">has Number Of Gates</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#EntranceEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_numberOfLockers -->
+
+    <owl:ObjectProperty rdf:about="&property;has_numberOfLockers">
+        <rdfs:label xml:lang="en">has Number Of Lockers</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_numberOfServers -->
+
+    <owl:ObjectProperty rdf:about="&property;has_numberOfServers">
+        <rdfs:label xml:lang="en">has Number Of Servers</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#QueueingEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_numberOfSteps -->
+
+    <owl:ObjectProperty rdf:about="&property;has_numberOfSteps">
+        <rdfs:label xml:lang="en">has Number Of Steps</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#Escalator_Equipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#StaircaseEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#TravelatorEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_panicButton -->
+
+    <owl:ObjectProperty rdf:about="&property;has_panicButton">
+        <rdfs:label xml:lang="en">has Panic Button</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#PassengerSafetyEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_passengerInfoEquipment -->
+
+    <owl:ObjectProperty rdf:about="&property;has_passengerInfoEquipment">
+        <rdfs:label xml:lang="en">has Passenger Information Equipment</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#PassengerInfoEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_passengerPerMinute -->
+
+    <owl:ObjectProperty rdf:about="&property;has_passengerPerMinute">
+        <rdfs:label xml:lang="en">has Passenger Per Minute</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#CrossingEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#EntranceEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#LiftEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#QueueingEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#RampEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#Escalator_Equipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#StaircaseEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#TravelatorEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_paymentMethod -->
+
+    <owl:ObjectProperty rdf:about="&property;has_paymentMethod">
+        <rdfs:label xml:lang="en">has Payment Method</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#LuggageLockerEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#TicketingEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_pedestal -->
+
+    <owl:ObjectProperty rdf:about="&property;has_pedestal">
+        <rdfs:label xml:lang="en">has Pedestal</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#RampEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_pedestrianLights -->
+
+    <owl:ObjectProperty rdf:about="&property;has_pedestrianLights">
+        <rdfs:label xml:lang="en">has Pedestrian Lights</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#CrossingEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_placeName -->
+
+    <owl:ObjectProperty rdf:about="&property;has_placeName">
+        <rdfs:label xml:lang="en">has Place Name</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#StopPlaceSign"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_placement -->
+
+    <owl:ObjectProperty rdf:about="&property;has_placement">
+        <rdfs:label xml:lang="en">has Placement</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#OtherSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#StopPlaceSign"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_queueingEquipment -->
+
+    <owl:ObjectProperty rdf:about="&property;has_queueingEquipment">
+        <rdfs:label xml:lang="en">has Queueing Equipment</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#QueueingEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_relativeWeighting -->
+
+    <owl:ObjectProperty rdf:about="&property;has_relativeWeighting">
+        <rdfs:label xml:lang="en">has Relative Weighting</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#CrossingEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#EntranceEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#LiftEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#QueueingEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#RampEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#Escalator_Equipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#StaircaseEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#TravelatorEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_revolvingDoor -->
+
+    <owl:ObjectProperty rdf:about="&property;has_revolvingDoor">
+        <rdfs:label xml:lang="en">has Revolving Door</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#EntranceEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_sanitaryFacilityType -->
+
+    <owl:ObjectProperty rdf:about="&property;has_sanitaryFacilityType">
+        <rdfs:label xml:lang="en">has Sanitary Facility Type</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#SanitaryFacilityEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_seats -->
+
+    <owl:ObjectProperty rdf:about="&property;has_seats">
+        <rdfs:label xml:lang="en">has Seats</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#WaitingEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_signGraphic -->
+
+    <owl:ObjectProperty rdf:about="&property;has_signGraphic">
+        <rdfs:label xml:lang="en">has Sign Graphic</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#OtherSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#StopPlaceSign"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_sosPhones -->
+
+    <owl:ObjectProperty rdf:about="&property;has_sosPhones">
+        <rdfs:label xml:lang="en">has SOS Phone</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#PassengerSafetyEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_speed -->
+
+    <owl:ObjectProperty rdf:about="&property;has_speed">
+        <rdfs:label xml:lang="en">has Speed</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#TravelatorEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_surface -->
+
+    <owl:ObjectProperty rdf:about="&property;has_surface">
+        <rdfs:label xml:lang="en">has Surface</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#RoughSurface"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_tactileActuators -->
+
+    <owl:ObjectProperty rdf:about="&property;has_tactileActuators">
+        <rdfs:label xml:lang="en">has Tactile Actuators</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#LiftEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#Escalator_Equipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#StaircaseEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#TravelatorEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_tactileGuidanceStrips -->
+
+    <owl:ObjectProperty rdf:about="&property;has_tactileGuidanceStrips">
+        <rdfs:label xml:lang="en">has Tactile Guidance Strips</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#RampEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_tactileGuideStrips -->
+
+    <owl:ObjectProperty rdf:about="&property;has_tactileGuideStrips">
+        <rdfs:label xml:lang="en">has Tactile Guide Strips
+</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#CrossingEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_temporary -->
+
+    <owl:ObjectProperty rdf:about="&property;has_temporary">
+        <rdfs:label xml:lang="en">has temporary</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#RampEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_throughLoader -->
+
+    <owl:ObjectProperty rdf:about="&property;has_throughLoader">
+        <rdfs:label xml:lang="en">has Trough Loader</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#LiftEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_ticketMachines -->
+
+    <owl:ObjectProperty rdf:about="&property;has_ticketMachines">
+        <rdfs:label xml:lang="en">has Ticket Machines</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#TicketingEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_ticketTypesAvaiable -->
+
+    <owl:ObjectProperty rdf:about="&property;has_ticketTypesAvaiable">
+        <rdfs:label xml:lang="en">has Ticket Types Avaiable</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#TicketingEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_ticketedQueue -->
+
+    <owl:ObjectProperty rdf:about="&property;has_ticketedQueue">
+        <rdfs:label xml:lang="en">has Ticketed Queue</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#QueueingEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_ticketingType -->
+
+    <owl:ObjectProperty rdf:about="&property;has_ticketingType">
+        <rdfs:label xml:lang="en">has Ticketing Type</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#TicketingEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_visualGuidanceBands -->
+
+    <owl:ObjectProperty rdf:about="&property;has_visualGuidanceBands">
+        <rdfs:label xml:lang="en">has Visual Guidance Bands</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#CrossingEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_wheelchairAreaLength -->
+
+    <owl:ObjectProperty rdf:about="&property;has_wheelchairAreaLength">
+        <rdfs:label xml:lang="en">has Wheelchair Area Width</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#WaitingEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_wheelchairTurningCircle -->
+
+    <owl:ObjectProperty rdf:about="&property;has_wheelchairTurningCircle">
+        <rdfs:label xml:lang="en">has Wheelchair Turning Circle</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#SanitaryFacilityEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#LiftEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_wheelcharAreaLength -->
+
+    <owl:ObjectProperty rdf:about="&property;has_wheelcharAreaLength">
+        <rdfs:label xml:lang="en">has Wheelchair Area Length</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#WaitingEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_width -->
+
+    <owl:ObjectProperty rdf:about="&property;has_width">
+        <rdfs:label xml:lang="en">has Width</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#LuggageLockerEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#WaitingEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#CrossingEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#EntranceEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#LiftEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#QueueingEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#RampEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#Escalator_Equipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#StaircaseEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#TravelatorEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#OtherSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#StopPlaceSign"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/property#has_zebraCrossing -->
+
+    <owl:ObjectProperty rdf:about="&property;has_zebraCrossing">
+        <rdfs:label xml:lang="en">has Zebra Crossing</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#CrossingEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#AccessibilityInfoEnum -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#AccessibilityInfoEnum">
+        <rdfs:label xml:lang="en">Accesibility Information</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#audioForHearingImpaired"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#audioInformation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#displaysForVisuallyImpaired"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#largePrintTimetables"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#tactileGuidingStrips"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#tactilePlatformEdges"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#visualDisplays"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#PassengerInfoEquipment"/>
+    </owl:DatatypeProperty>
+    <owl:Axiom>
+        <rdfs:label xml:lang="en">Largue Print Timetables</rdfs:label>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#AccessibilityInfoEnum"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#largePrintTimetables"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <rdfs:label xml:lang="en">Audio Information</rdfs:label>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#AccessibilityInfoEnum"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#audioInformation"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <rdfs:label xml:lang="en">Tactile Platform Edges</rdfs:label>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#AccessibilityInfoEnum"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#tactilePlatformEdges"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <rdfs:label xml:lang="en">Displays For Visually Impaired</rdfs:label>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#AccessibilityInfoEnum"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#displaysForVisuallyImpaired"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <rdfs:label xml:lang="en">Visual Displays</rdfs:label>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#AccessibilityInfoEnum"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#visualDisplays"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <rdfs:label xml:lang="en">Audio For Hearing Impaired</rdfs:label>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#AccessibilityInfoEnum"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#audioForHearingImpaired"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <rdfs:label xml:lang="en">Tactile Guiding Strips</rdfs:label>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#AccessibilityInfoEnum"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#tactileGuidingStrips"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#AcousticAnnouncements -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#AcousticAnnouncements">
+        <rdfs:label xml:lang="en">Acoustic Announcements</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#LiftEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#AcousticCrossingAid -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#AcousticCrossingAid">
+        <rdfs:label xml:lang="en">Acoustic Crossing Aid</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#CrossingEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#AcousticDeviceSensors -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#AcousticDeviceSensors">
+        <rdfs:label xml:lang="en">Acoustic Device Sensors</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#CrossingEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#AcousticSensor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#AcousticSensor">
+        <rdfs:label xml:lang="en">Acoustic Sensor</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#EntranceEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#AsBraille -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#AsBraille">
+        <rdfs:label xml:lang="en">As Braille</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#OtherSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#StopPlaceSign"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Attendant -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Attendant">
+        <rdfs:label xml:lang="en">Attendant</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#LiftEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Automatic -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Automatic">
+        <rdfs:label xml:lang="en">Automatic</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#LiftEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#AutomaticDoor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#AutomaticDoor">
+        <rdfs:label xml:lang="en">Automatic Door</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#EntranceEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Barrier -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Barrier">
+        <rdfs:label xml:lang="en">Barrier</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#EntranceEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#BrandGraphic -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#BrandGraphic">
+        <rdfs:label xml:lang="en">Band Graphic</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#OtherSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#StopPlaceSign"/>
+        <rdfs:range rdf:resource="&xsd;anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Charge -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Charge">
+        <rdfs:label xml:lang="en">Charge</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Current"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#TrolleyStandEquipment"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Content -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Content">
+        <rdfs:label xml:lang="en">Content</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#OtherSign"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Depth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Depth">
+        <rdfs:label xml:lang="en">Depth</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Metres"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#LuggageLockerEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#LiftEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#StairEquipment"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#DirectionName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#DirectionName">
+        <rdfs:label xml:lang="en">Direction Name</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#DirectionsOfUSe -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#DirectionsOfUSe">
+        <rdfs:label xml:lang="en">Directions Of Use</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Both"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Down"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Level"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Up"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#AccessEquipment"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Door -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Door">
+        <rdfs:label xml:lang="en">Door
+</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#EntranceEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#EnergySaving -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#EnergySaving">
+        <rdfs:label xml:lang="en">Energy Saving</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#Escalator_Equipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#TravelatorEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#EntranceRequiresTicket -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#EntranceRequiresTicket">
+        <rdfs:label xml:lang="en">Entrance Requires Ticket</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#EntranceEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#FreeToUse -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#FreeToUse">
+        <rdfs:label xml:lang="en">Free To Use</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#TrolleyStandEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Gender -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Gender">
+        <rdfs:label xml:lang="en">Gender</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Both"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#FemaleOnly"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#maleOnly"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#SanitaryFacilityEquipment"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Gradient -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Gradient">
+        <rdfs:label xml:lang="en">Gradient</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#RampEquipment"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#HandrailHeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#HandrailHeight">
+        <rdfs:label xml:lang="en">Handrail Height</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Metres"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#RampEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#StaircaseEquipment"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#HandrailType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#HandrailType">
+        <rdfs:label xml:lang="en">Handrail Type</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Both_Side"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#None"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#One_Side"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#RampEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#StaircaseEquipment"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Height -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Height">
+        <rdfs:label xml:lang="en">Height</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Metres"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#LuggageLockerEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#OtherSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#StopPlaceSign"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#HeightFromFloor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#HeightFromFloor">
+        <rdfs:label xml:lang="en">Height From Floor</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Metres"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#OtherSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#StopPlaceSign"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#InfoFacility -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#InfoFacility">
+        <rdfs:label>Information Facility</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#fareInformation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#lineNetworkPlan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#lineTimetable"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#stopTimetable"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#timeTablePoster"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#PassengerInfoEquipment"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Length -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Length">
+        <rdfs:label xml:lang="en">Length</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#WaitingEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#RampEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#LineCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#LineCode">
+        <rdfs:label xml:lang="en">Line Code</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#LineCode"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#LineMap -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#LineMap">
+        <rdfs:label xml:lang="en">Line Map</rdfs:label>
+        <rdfs:range rdf:resource="&xsd;anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#LineName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#LineName">
+        <rdfs:label xml:lang="en">Line Name</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Low_Counter_Access -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Low_Counter_Access">
+        <rdfs:label xml:lang="en">Low Counter Access</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#TicketingEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#MachineReadable -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#MachineReadable">
+        <rdfs:label xml:lang="en">Machine Readable</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#OtherSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#StopPlaceSign"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#MaximumLoad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#MaximumLoad">
+        <rdfs:label>Maximum Load</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#LiftEquipment"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#MirrorOnOppositeSide -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#MirrorOnOppositeSide">
+        <rdfs:label xml:lang="en">Mirror On Opposite Side</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#LiftEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#NumberOfGates -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#NumberOfGates">
+        <rdfs:label xml:lang="en">Number Of Gates</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#EntranceEquipment"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#NumberOfLockers -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#NumberOfLockers">
+        <rdfs:label xml:lang="en">Number Of Lockers
+</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#LuggageLockerEquipment"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#NumberOfServers -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#NumberOfServers">
+        <rdfs:label xml:lang="en">Number Of Servers</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#QueueingEquipment"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#NumberOfSteps -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#NumberOfSteps">
+        <rdfs:label xml:lang="en">Number Of Steps</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#StairEquipment"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#PassengerInfoFacilityType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#PassengerInfoFacilityType">
+        <rdfs:label xml:lang="en">Passenger Information Facility Type</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#audioForHearingImpaired"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#audioInformation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#displaysForVisuallyImpaired"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#tactileGuidingStrips"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#tactilePlatformEdges"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#visualDisplays"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#PassengerInfoEquipment"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#PassengersPerMinute -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#PassengersPerMinute">
+        <rdfs:label xml:lang="en">Passengers Per Minute</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#AccessEquipment"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#PaymentMethod -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#PaymentMethod">
+        <rdfs:label xml:lang="en">Payment Method</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Cash"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#ContactlessTravelCard"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#CreditCard"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#DebitCard"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#MobilePhone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Other"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Token"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#TravelCard"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#LuggageLockerEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#TicketingEquipment"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Pedestal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Pedestal">
+        <rdfs:label xml:lang="en">Pedestal</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#RampEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#PedestrianLights -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#PedestrianLights">
+        <rdfs:label xml:lang="en">Pedestrian Lights</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#CrossingEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#PlaceName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#PlaceName">
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#StopPlaceSign"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Placement -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Placement">
+        <rdfs:label xml:lang="en">Placement</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#OtherSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#StopPlaceSign"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#RailedQueue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#RailedQueue">
+        <rdfs:label xml:lang="en">Railed Queue</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#QueueingEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#RelativeWeigthing -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#RelativeWeigthing">
+        <rdfs:label xml:lang="en">Relative Weighting</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#AccessEquipment"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#RevolvingDoor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#RevolvingDoor">
+        <rdfs:label xml:lang="en">Revolving Door</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#EntranceEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#SanitaryFacilityType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#SanitaryFacilityType">
+        <rdfs:label xml:lang="en">Sanitary Facility Type</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#BabyChange"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Other"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Shower"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Toilet"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#WheelchairAccessToilet"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#WheelchairBabyChange"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#SanitaryFacilityEquipment"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Seats -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Seats">
+        <rdfs:label xml:lang="en">Seats</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#WaitingEquipment"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#SignGraphic -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#SignGraphic">
+        <rdfs:label xml:lang="en">Sign Graphic</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#OtherSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#StopPlaceSign"/>
+        <rdfs:range rdf:resource="&xsd;anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Speed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Speed">
+        <rdfs:label xml:lang="en">Speed</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#TravelatorEquipment"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#SpiralStair -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#SpiralStair">
+        <rdfs:label xml:lang="en">Spiral Stair</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#StaircaseEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#StepFree -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#StepFree">
+        <rdfs:label xml:lang="en">Step Free</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#WaitingEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Surface -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Surface">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Cobbles"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#LooseSurface"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#TactileActuators -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#TactileActuators">
+        <rdfs:label xml:lang="en">Tactile Actuators</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#LiftEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#Escalator_Equipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#TravelatorEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#TactileGuideStrips -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#TactileGuideStrips">
+        <rdfs:label xml:lang="en">Tactile Guide Strips</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#CrossingEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#RampEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#ThroughLoader -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#ThroughLoader">
+        <rdfs:label xml:lang="en">Trough Loader</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#LiftEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#TicketMachines -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#TicketMachines">
+        <rdfs:label xml:lang="en">Ticket Machines
+</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#TicketingEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#TicketTypesAvaiable -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#TicketTypesAvaiable">
+        <rdfs:label xml:lang="en">Ticket Types Avaiable</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Concession"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Group"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Other"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Promotion"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Season"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Standard"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#TravelCard"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#TicketingEquipment"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#TicketedQueue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#TicketedQueue">
+        <rdfs:label xml:lang="en">Ticketed Queue</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#QueueingEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#TicketingType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#TicketingType">
+        <rdfs:label xml:lang="en">Ticketing Type</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#CardTopUp"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Collection"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Purchase"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#TicketingEquipment"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#VisualGuianceBands -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#VisualGuianceBands">
+        <rdfs:label xml:lang="en">Visual Guiance Bands</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#CrossingEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#WeelchairAreaWidth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#WeelchairAreaWidth">
+        <rdfs:label xml:lang="en">Wheelchair Area Width</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Metres"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#WaitingEquipment"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#WeelchairTurningCircle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#WeelchairTurningCircle">
+        <rdfs:label xml:lang="en">Weelchair Turning Circle</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Metres"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#LiftEquipment"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#WheelchairAreaLength -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#WheelchairAreaLength">
+        <rdfs:label xml:lang="en">Wheelchair Area Length</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Metres"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#WaitingEquipment"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Width -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Width">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Metres"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#AccessEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#LuggageLockerEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#WaitingEquipment"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#OtherSign"/>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#StopPlaceSign"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#ZebraCrossing -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#ZebraCrossing">
+        <rdfs:label xml:lang="en">Zebra Crossing</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#CrossingEquipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology#StopPlaceEquipment -->
+
+    <owl:Class rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology#StopPlaceEquipment">
+        <rdfs:label>Stop Place Equipment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#AccessEquipment -->
+
+    <owl:Class rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#AccessEquipment">
+        <rdfs:label>Access Equipment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology#StopPlaceEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#LuggageLockerEquipment -->
+
+    <owl:Class rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#LuggageLockerEquipment">
+        <rdfs:label xml:lang="en">Luggage Locker Equipment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology#StopPlaceEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#PassengerInfoEquipment -->
+
+    <owl:Class rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#PassengerInfoEquipment">
+        <rdfs:label>Passenger Info Equipment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology#StopPlaceEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#PassengerSafetyEquipment -->
+
+    <owl:Class rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#PassengerSafetyEquipment">
+        <rdfs:label>Passenger Safety Equipment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology#StopPlaceEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#RoughSurface -->
+
+    <owl:Class rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#RoughSurface">
+        <rdfs:label>Rough Surface</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology#StopPlaceEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#SanitaryFacilityEquipment -->
+
+    <owl:Class rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#SanitaryFacilityEquipment">
+        <rdfs:label>Sanitary Facility Equipment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology#StopPlaceEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#Sign -->
+
+    <owl:Class rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#Sign">
+        <rdfs:label>Sign</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology#StopPlaceEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#TicketingEquipment -->
+
+    <owl:Class rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#TicketingEquipment">
+        <rdfs:label>Ticketing Equipment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology#StopPlaceEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#TrolleyStandEquipment -->
+
+    <owl:Class rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#TrolleyStandEquipment">
+        <rdfs:label>Trolley Stand Equipment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology#StopPlaceEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#WaitingEquipment -->
+
+    <owl:Class rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#WaitingEquipment">
+        <rdfs:label>Waiting Equipment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology#StopPlaceEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#CrossingEquipment -->
+
+    <owl:Class rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#CrossingEquipment">
+        <rdfs:label>Crossing Equipment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#AccessEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#EntranceEquipment -->
+
+    <owl:Class rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#EntranceEquipment">
+        <rdfs:label>Entrance Equipment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#AccessEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#LiftEquipment -->
+
+    <owl:Class rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#LiftEquipment">
+        <rdfs:label xml:lang="en">Lift Equipment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#AccessEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#QueueingEquipment -->
+
+    <owl:Class rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#QueueingEquipment">
+        <rdfs:label>Queueing Equipment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#AccessEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#RampEquipment -->
+
+    <owl:Class rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#RampEquipment">
+        <rdfs:label>Ramp Equipment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#AccessEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#StairEquipment -->
+
+    <owl:Class rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#StairEquipment">
+        <rdfs:label xml:lang="en">Stair Equipment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#AccessEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#Escalator_Equipment -->
+
+    <owl:Class rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#Escalator_Equipment">
+        <rdfs:label xml:lang="en">Escalator Equipment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#StairEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#StaircaseEquipment -->
+
+    <owl:Class rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#StaircaseEquipment">
+        <rdfs:label xml:lang="en">Staircase Equipment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#StairEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#TravelatorEquipment -->
+
+    <owl:Class rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment/StairEquipment#TravelatorEquipment">
+        <rdfs:label xml:lang="en">Travelator Equipment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/AccessEquipment#StairEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign -->
+
+    <owl:Class rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#HeadingSign">
+        <rdfs:label>Heading Sign</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#Sign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#OtherSign -->
+
+    <owl:Class rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#OtherSign">
+        <rdfs:label>Other Sign</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#Sign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#StopPlaceSign -->
+
+    <owl:Class rdf:about="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment/Sign#StopPlaceSign">
+        <rdfs:label>Stop place sign</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology/StopPlaceEquipment#Sign"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Sol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#Sol">
+        <rdf:type rdf:resource="http://www.vortic3.com/IFOPT/MetroAccesibilityOntology#StopPlaceEquipment"/>
+        <rdfs:label xml:lang="en">Sol</rdfs:label>
+        <property:has_passengerInfoEquipment rdf:resource="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#property_passengerInformationEquipment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#property_passengerInformationEquipment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#property_passengerInformationEquipment">
+        <rdfs:label xml:lang="en">Passenger Facility Type Property</rdfs:label>
+        <PassengerInfoFacilityType rdf:datatype="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#audioInformation"></PassengerInfoFacilityType>
+        <PassengerInfoFacilityType rdf:datatype="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#displaysForVisuallyImpaired"></PassengerInfoFacilityType>
+        <PassengerInfoFacilityType rdf:datatype="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#tactileGuidingStrips"></PassengerInfoFacilityType>
+        <PassengerInfoFacilityType rdf:datatype="http://www.semanticweb.org/elena.salcedo/ontologies/2015/6/untitled-ontology-3#tactilePlatformEdges"></PassengerInfoFacilityType>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
